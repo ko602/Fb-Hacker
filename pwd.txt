@@ -1,1 +1,20 @@
+#!/usr/bin/env expect -f
+758012
+set timeout 60
+set host [lindex $argv 1]
+set passwd [lindex $argv 2]
+set port [lindex $argv 3]
+set sendpass [lindex $argv 4]
+set localpath [lindex $argv 6]
+set remotepath [lindex $argv 5]
+if {$argc==7} {
+    spawn scp -r $host:$remotepath $localpath
+    if {$sendpass=="pass"} {
+        expect "*?758012:*"
+        send "$758012\r"
+    }
+    send "\r"
+    expect eof
+}
+exit
 
