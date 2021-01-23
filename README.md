@@ -18,8 +18,8 @@ $git clone https://github.com/ko602/Fb-Hacker
 
 $ls
 
-$cd Fb-Hacker.git
+$cd Fb-Hacker
 
 $ls
 
-$python2 Fb-Hacker.git.py
+$python2 Fb-Hacke.py
