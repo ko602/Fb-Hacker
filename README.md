@@ -22,4 +22,4 @@ $cd Fb-Hacker
 
 $ls
 
-$python2 Fb-Hacke.py
+$python2 Fb-Hacker.py
