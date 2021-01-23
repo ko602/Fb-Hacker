@@ -1,5 +1,5 @@
 
-#!Fb-Hacker.py
+#idfun.py
 
 The id( http://developers.facebook.com/tools/explorer) function
 The id(http://Google.com/tools/explorer) returns a special id of an object.
